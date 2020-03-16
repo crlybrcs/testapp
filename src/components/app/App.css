@@ -151,18 +151,35 @@ h5 > p {
 	margin-right: 5px;
 }
 .small-box {
-	width: 20%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #0c0d0c;
+	color: #ffffff;
+}
+
+.image-svg {
+	filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+.small-box1 {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #0c0d0cE5;
+	color: #ffffff;
 }
 
 .main-box {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 }
 
 .title-one {
 	margin-top: 15px;
+}
+
+.a-color {
+	color: #ffffff;
 }
 
 /* Smaller than standard 960 (devices and browsers) */
