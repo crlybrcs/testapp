@@ -20,7 +20,7 @@ class CarouselItem extends Component {
 								Nulla vitae elit libero, a pharetra augue mollis interdum. Stet clita kasd gubergren, no
 								sea takimata sanctus est Lorem ipsum dolor sit amet.{' '}
 							</p>
-							<button>BUTTON</button>
+							<button className="carousel-button">BUTTON</button>
 						</div>
 					</Carousel.Caption>
 				</Carousel.Item>
@@ -40,7 +40,7 @@ class CarouselItem extends Component {
 								Nulla vitae elit libero, a pharetra augue mollis interdum. Stet clita kasd gubergren, no
 								sea takimata sanctus est Lorem ipsum dolor sit amet.
 							</p>
-							<button>BUTTON</button>
+							<button className="carousel-button">BUTTON</button>
 						</div>
 					</Carousel.Caption>
 				</Carousel.Item>
@@ -60,7 +60,7 @@ class CarouselItem extends Component {
 								Nulla vitae elit libero, a pharetra augue mollis interdum. Stet clita kasd gubergren, no
 								sea takimata sanctus est Lorem ipsum dolor sit amet.
 							</p>
-							<button>BUTTON</button>
+							<button className="carousel-button">BUTTON</button>
 						</div>
 					</Carousel.Caption>
 				</Carousel.Item>

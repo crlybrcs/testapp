@@ -3,6 +3,7 @@ import CarouselItem from './CarouselItem';
 import Features from './Features';
 import ArticleBox from './ArticleBox';
 import Work from './Work';
+import Blog from './Blog';
 
 class MainContainer extends Component {
 	render() {
@@ -12,6 +13,7 @@ class MainContainer extends Component {
 				<Features />
 				<ArticleBox />
 				<Work />
+				<Blog />
 			</div>
 		);
 	}

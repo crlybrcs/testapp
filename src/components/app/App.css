@@ -85,6 +85,13 @@ a .nav-link {
 	margin-bottom: 8%;
 	width: 80%;
 }
+
+.innerbox .carousel-button {
+	padding: 5px 40px;
+	background-color: #32a852;
+	border-color: #32a852;
+	color: white;
+}
 .innerbox h1 {
 	font-size: 50px;
 	font-weight: 1000;
@@ -160,6 +167,13 @@ h5 > p {
 .image-svg {
 	filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
 }
+.image-work {
+	filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+.image-blog {
+	filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+	margin-top: 15%;
+}
 .small-box1 {
 	padding-top: 40px;
 	padding-bottom: 40px;
@@ -212,10 +226,9 @@ h5 > p {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-	align-items: center;
+	align-items: flex-start;
 	flex-wrap: wrap;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin: 40px 60px;
 }
 
 .work-box3 h5 {
@@ -233,6 +246,89 @@ h5 > p {
 
 	margin-right: 15px;
 	margin-left: 15px;
+}
+
+.image-work {
+	margin-top: 25%;
+}
+
+.work-box3 a {
+	color: black;
+}
+.work-box3 h5 a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.work-footnote {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	/* margin: 30px 60px; */
+	background-color: #0c0d0cE5;
+	width: auto;
+}
+
+.workbox-left {
+	text-align: left;
+	margin-right: 20px;
+	color: white;
+}
+.workbox-left {
+	margin: 20px;
+	margin-right: 50px;
+}
+
+.workbox-right {
+	text-align: right;
+	margin-left: 30px;
+}
+
+.work-button {
+	margin: 30px 10px;
+	padding: 5px 40px;
+	background-color: #0c0d0cE5;
+	color: white;
+	border-color: white;
+}
+
+.work-button-green {
+	margin: 0 10px;
+	padding: 5px 40px;
+	background-color: #32a852;
+	border-color: #32a852;
+	color: white;
+}
+
+.blog-top {
+	margin: 40px 20px;
+}
+
+.blog-box {
+	background-color: #0c0d0cE5;
+	height: 100px;
+	width: 200px;
+}
+
+.size-box p {
+	width: 400px;
+	height: auto;
+}
+
+.blog-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.boxin {
+	display: inline-block;
+	margin: 10px 10px;
+}
+
+.size-box {
+	text-align: start;
+	float: right;
 }
 
 /* Smaller than standard 960 (devices and browsers) */

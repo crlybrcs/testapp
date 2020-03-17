@@ -25,11 +25,13 @@ const Work = () => {
 							src="image-regular.svg"
 							width="40px"
 							height="40px"
-							className="image-svg"
+							className="image-work"
 							alt="icon-picture"
 						/>
 					</div>
-					<h5>Unde Omnis</h5>
+					<h5>
+						<a href="#">Unde Omnis</a>
+					</h5>
 					<p>Tempor nec feugiat nisl pretium</p>
 				</div>
 				<div>
@@ -38,11 +40,13 @@ const Work = () => {
 							src="image-regular.svg"
 							width="40px"
 							height="40px"
-							className="image-svg"
+							className="image-work"
 							alt="icon-picture"
 						/>
 					</div>
-					<h5>Set Ut Unde</h5>
+					<h5>
+						<a href="#">Set Ut Unde</a>
+					</h5>
 					<p>Amet luctus venenatis lectus</p>
 				</div>
 				<div>
@@ -51,11 +55,13 @@ const Work = () => {
 							src="image-regular.svg"
 							width="40px"
 							height="40px"
-							className="image-svg"
+							className="image-work"
 							alt="icon-picture"
 						/>
 					</div>
-					<h5>Iste Natus</h5>
+					<h5>
+						<a href="#">Iste Natus</a>
+					</h5>
 					<p>Tempus iaculis urna</p>
 				</div>
 				<div>
@@ -64,11 +70,13 @@ const Work = () => {
 							src="image-regular.svg"
 							width="40px"
 							height="40px"
-							className="image-svg"
+							className="image-work"
 							alt="icon-picture"
 						/>
 					</div>
-					<h5>Sagittis Orci</h5>
+					<h5>
+						<a href="#">Sagittis Orci</a>
+					</h5>
 					<p>Cursus risus at ultrices</p>
 				</div>
 				<div>
@@ -77,11 +85,13 @@ const Work = () => {
 							src="image-regular.svg"
 							width="40px"
 							height="40px"
-							className="image-svg"
+							className="image-work"
 							alt="icon-picture"
 						/>
 					</div>
-					<h5>Erat Pellentesque</h5>
+					<h5>
+						<a href="#">Erat Pellentesque</a>
+					</h5>
 					<p>Gravida rutrum quisque</p>
 				</div>
 				<div>
@@ -90,11 +100,13 @@ const Work = () => {
 							src="image-regular.svg"
 							width="40px"
 							height="40px"
-							className="image-svg"
+							className="image-work"
 							alt="icon-picture"
 						/>
 					</div>
-					<h5>Tempus Imperdiet</h5>
+					<h5>
+						<a href="#">Tempus Imperdiet</a>
+					</h5>
 					<p>Feugiat sed lectus</p>
 				</div>
 				<div>
@@ -103,11 +115,13 @@ const Work = () => {
 							src="image-regular.svg"
 							width="40px"
 							height="40px"
-							className="image-svg"
+							className="image-work"
 							alt="icon-picture"
 						/>
 					</div>
-					<h5>Urna Duis</h5>
+					<h5>
+						<a href="#">Urna Duis</a>
+					</h5>
 					<p>Maecenas ultricies mi</p>
 				</div>
 				<div>
@@ -116,22 +130,28 @@ const Work = () => {
 							src="image-regular.svg"
 							width="40px"
 							height="40px"
-							className="image-svg"
+							className="image-work"
 							alt="icon-picture"
 						/>
 					</div>
-					<h5>Sapien Nec</h5>
+					<h5>
+						<a href="#">Sapien Nec</a>
+					</h5>
 					<p>Sollicitudin aliquam</p>
 				</div>
 			</div>
-			<div>
-				<h5>Perspiciatis Unde Omnis</h5>
-				<p>
-					Maecenas ultricies mi eget mauris pharetra et ultrices neque ornare. Amet mauris commodo quis
-					imperdiet massa.
-				</p>
-				<button>BUTTON</button>
-				<button>BUTTON</button>
+			<div className="work-footnote">
+				<div className="workbox-left">
+					<h5>Perspiciatis Unde Omnis</h5>
+					<p>
+						Maecenas ultricies mi eget mauris pharetra et ultrices neque ornare. Amet mauris commodo quis
+						imperdiet massa.
+					</p>
+				</div>
+				<div className="workbox-right">
+					<button className="work-button">BUTTON</button>
+					<button className="work-button-green">BUTTON</button>
+				</div>
 			</div>
 		</div>
 	);
