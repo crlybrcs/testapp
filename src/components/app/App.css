@@ -110,7 +110,6 @@ a .nav-link {
 
 .inside-box1 {
 	margin-top: 50px;
-
 	width: 50%;
 	display: inline-block;
 }
@@ -301,13 +300,17 @@ h5 > p {
 }
 
 .blog-top {
-	margin: 40px 20px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	width: 50%;
+	display: inline-block;
 }
 
 .blog-box {
 	background-color: #0c0d0cE5;
 	height: 100px;
 	width: 200px;
+	float: left;
 }
 
 .size-box p {
@@ -320,6 +323,7 @@ h5 > p {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
+	margin: 30px 0;
 }
 .boxin {
 	display: inline-block;
@@ -329,6 +333,49 @@ h5 > p {
 .size-box {
 	text-align: start;
 	float: right;
+	margin-left: 10px;
+}
+
+.blog-footnote h5 {
+	margin-top: 30px;
+	margin-left: 150px;
+	float: left;
+	color: white;
+}
+
+.blog-footnote {
+	background-color: #0c0d0cE5;
+	width: auto;
+}
+
+.box-email {
+	float: right;
+	margin-right: 10%;
+}
+
+.box-email {
+	display: inline-block;
+	box-sizing: inherit;
+	flex-direction: row-reverse;
+	margin-top: 30px;
+}
+
+.box-email input {
+	height: 35px;
+	width: 300px;
+}
+
+.blog-button {
+	padding: 5px 40px;
+	background-color: #32a852;
+	color: white;
+	border-color: white;
+}
+
+.box-color {
+	background-color: #0c0d0cE5;
+	width: auto;
+	height: 100px;
 }
 
 /* Smaller than standard 960 (devices and browsers) */

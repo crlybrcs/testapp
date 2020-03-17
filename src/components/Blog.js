@@ -7,7 +7,8 @@ const Blog = () => {
 				<h1>Our Blog</h1>
 				<p>
 					Facilisis gravida neque convallis a cras semper auctor neque. Eget egestas purus viverra accumsan in
-					nisl. Urna duis convallis convallis tellus id interdum velit laoreet id.
+					nisl. Urna duis convallis convallis tellus id interdum velit laoreet id. Vitae turpis massa sed
+					elementum tempus egestas sed sed.
 				</p>
 			</div>
 			<div className="blog-container">
@@ -87,9 +88,18 @@ const Blog = () => {
 					</div>
 				</div>
 			</div>
-			<div>
-				<h5>Maecenas ultricies </h5>
-				<input type="email" />
+			<div className="box-color">
+				<div className="blog-footnote">
+					<h5>Maecenas ultricies </h5>
+					<div className="box-email">
+						<form action="">
+							<label htmlFor="emailAddress">
+								<input type="email" placeholder="Your email" />
+							</label>
+							<button className="blog-button">SUBSCRIBE</button>
+						</form>
+					</div>
+				</div>
 			</div>
 		</div>
 	);
