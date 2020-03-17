@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import CarouselItem from './CarouselItem';
 import Features from './Features';
 import ArticleBox from './ArticleBox';
+import Work from './Work';
 
 class MainContainer extends Component {
 	render() {
@@ -10,6 +11,7 @@ class MainContainer extends Component {
 				<CarouselItem />
 				<Features />
 				<ArticleBox />
+				<Work />
 			</div>
 		);
 	}
