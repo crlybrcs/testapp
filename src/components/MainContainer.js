@@ -4,6 +4,7 @@ import Features from './Features';
 import ArticleBox from './ArticleBox';
 import Work from './Work';
 import Blog from './Blog';
+import Summary from './Summary';
 
 class MainContainer extends Component {
 	render() {
@@ -14,6 +15,7 @@ class MainContainer extends Component {
 				<ArticleBox />
 				<Work />
 				<Blog />
+				<Summary />
 			</div>
 		);
 	}
